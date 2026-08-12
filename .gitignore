@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local environment
+.env
+.env.*
+
+# Downloaded datasets and weights
+data/dataset/imagefolder/train/
+data/dataset/imagefolder/val/
+data/dataset/imagefolder/test/
+pretrained_weights/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.tgz
+
+# Generated artifacts
+output/
+logs/
+wandb/
+runs/
+*.log
+*.zip
+
+# Temporary and backup files
+*.bak
+*.backup
+*.part
+*.tmp
+*.old
+*.orig
+*~
